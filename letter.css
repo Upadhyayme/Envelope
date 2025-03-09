@@ -165,8 +165,8 @@ body {
   left: 20%;
   transform: scale(0.6);
   opacity: 1;
-  -webkit-animation: slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
-  -moz-animation: slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
+  -webkit-animation:slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
+  -moz-animation:slideUp 4s linear 1, sideSway 2s ease-in-out 4 alternate;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-delay: 0.7s;
@@ -244,12 +244,13 @@ body {
 .gif-container {
     text-align: center;
     margin-top: 20px;
+    margin-right: 60px;
   }
   
   .gif-container img {
     width: 200px;  /* Adjust size as needed */
-    height: auto;
-    border-radius: 10px; /* Soft edges */
+    height: 200px;
+    border-radius: 8px; /* Soft edges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
   
@@ -276,6 +277,9 @@ body {
 .reset button:hover {
   background-color: #d9534f;
   color: #fff;
-}
+} */
 
+body {
+  background-color: #f0e6f6; /* Soft lavender for a romantic, dreamy feel */
+}
 }
